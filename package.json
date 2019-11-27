@@ -1,0 +1,79 @@
+{
+  "_from": "git+https://github.com/ns-labs/react-native-image-view.git",
+  "_id": "react-native-image-view@2.1.4",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-image-view",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-image-view@git+https://github.com/ns-labs/react-native-image-view.git",
+    "name": "react-native-image-view",
+    "escapedName": "react-native-image-view",
+    "rawSpec": "git+https://github.com/ns-labs/react-native-image-view.git",
+    "saveSpec": "git+https://github.com/ns-labs/react-native-image-view.git",
+    "fetchSpec": "https://github.com/ns-labs/react-native-image-view.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ns-labs/react-native-image-view.git#fa08317176ba92ab8971062bd911b32ad707ce99",
+  "_spec": "react-native-image-view@git+https://github.com/ns-labs/react-native-image-view.git",
+  "_where": "/Users/sankeysolutions34/credo/source/credo-mob/credo",
+  "author": {
+    "name": "Anton Kalinin"
+  },
+  "bugs": {
+    "url": "https://github.com/antonKalinin/react-native-image-view/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "React Native modal image view with pinch zoom",
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "flow-bin": "^0.71.0",
+    "prettier": "1.11.1"
+  },
+  "files": [
+    "package.json",
+    "readme.md",
+    "src"
+  ],
+  "homepage": "https://github.com/antonKalinin/react-native-image-view#readme",
+  "keywords": [
+    "react-native",
+    "image",
+    "zoom",
+    "preview",
+    "modal",
+    "pinch",
+    "component"
+  ],
+  "license": "MIT",
+  "main": "src/ImageView",
+  "name": "react-native-image-view",
+  "peerDependencies": {
+    "react": ">=15.2.0",
+    "react-native": ">=0.44.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonKalinin/react-native-image-view.git"
+  },
+  "scripts": {
+    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
+    "flow": "flow",
+    "postversion": "git push origin master && git push --tags origin master"
+  },
+  "version": "2.1.4"
+}
