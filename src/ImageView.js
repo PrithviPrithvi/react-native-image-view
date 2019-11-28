@@ -830,9 +830,8 @@ export default class ImageView extends React.Component {
                 transparent
                 visible={isVisible}
                 animationType={animationType}
-                onRequestClose={() => { }}
+                onRequestClose={this.props.onBackPress}
                 supportedOrientations={['portrait', 'landscape']}
-
             >
                 <View style={{ flex: 1, backgroundColor: this.state.backgroundColor, }}>
                 {
