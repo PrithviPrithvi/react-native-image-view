@@ -288,7 +288,9 @@ export default class ImageView extends React.Component {
         if (imageIndex !== nextImageIndex && nextImageIndex >= 0) {
             const nextImageScale = this.getInitialScale(nextImageIndex);
             const nextImageTranslate = this.getInitialTranslate(nextImageIndex);
-
+            if(this.props.onNextImage) {
+                this.props.onNextImage(nextImageIndex);
+            }
             this.setState({
                 imageIndex: nextImageIndex,
                 imageScale: nextImageScale,
